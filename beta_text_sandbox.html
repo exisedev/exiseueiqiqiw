@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <style>
+      body {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+         #myDIV {
+        width: 160px;
+        height: 110px;
+        background: black;
+  display: none;
+           position: relative;
+           top: 200px;
+           left: 55px;
+           color: none;
+           text-align: center;
+           font-family: "Arial";
+           font-size: 12px;
+        
+      }
+      #start {
+        width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 60px;
+        left: 50px;
+      }
+      .start2 {
+        width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 10px;
+        left: -29px;
+      }
+      .start3 {
+width: 82px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 10px;
+        left: -25px;
+        text-align: center;
+}
+      .start4 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 67px;
+        left: -107px;
+}
+      .lg {
+        color: black;
+        font-family: "Arial";
+        position: absolute;
+        top: 500px; 
+        left: 10px;
+        font-size: 10px;
+      }
+      .start5 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 91px;
+        left: 50px;
+        
+}
+      .start6 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 98px;
+        left: 55px;
+}
+      .start7 {
+width: 100px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 159px;
+        left: -108px;
+     }
+        .start8 {
+width: 85px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 205px;
+        left: -118px;
+     }
+        .start9 {
+width: 85px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 165px;
+        left: 50px;
+     }
+      #mydiv {
+        color: white;
+        position: relative;
+        top: 0px;
+      }
+      select {
+        position: absolute;
+        top: 110px;
+        width: 70px;
+        height: 20px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        left: 52px;
+      }
+      tabel {
+        position: relative;
+        top: 400px;
+      }
+      a {
+        position: absolute;
+        top: 600px;
+        color: black;
+        left: 10px;
+      }
+      .sel {
+        position: absolute;
+        top: 115px;
+        left: 140px;
+      }
+      .sel1 {
+        position: absolute;
+        top: 116px;
+        left: 51px;
+      }
+      .ap {
+        position: absolute;
+        top: 621px;
+        color: black;
+        left: 10px;
+      }
+      .em {
+        position: absolute;
+        top: 187px;
+        left:136px;
+      }
+      .em2 {
+        position: absolute;
+        top: 187px;
+      }
+      .inp {
+        position: absolute;
+        top: 600px;
+        left: 175px;
+        width: 105px;
+        height: 15px;
+        background: black;
+        color: white;
+        
+      }
+      .inptb {
+        position: absolute;
+        top: 599px;
+        left: 300px;
+        width: 70px;
+        height: 23px;
+        background: black;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+      }
+      .sbtext {
+color: red;
+
+      }
+      .em4 {
+        position: absolute;
+        top: 601px;
+        left: 100px;
+      }
+      .em5 {
+        position: absolute;
+        top: 212px;
+        left: 155px;
+      } 
+      .em6 {
+        position: absolute;
+        top: 235px;
+        left: 155px;
+      }
+      .upd {
+        width: 100px;
+        height: 37px;
+        background: red;
+        color: white;
+        position: absolute;
+        top: 555px;
+        left: 200px;
+        border:none;
+        border-radius: 5px;
+        text-align: center;
+        font-family: "Arial";
+        font-size: 13px;
+      }
+    </style>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <!--<script defer src="script.js"></script>-->
+  </head>
+  <body>
+ 
+<button id="start" onclick="myFunction2()" onclick="my()">Выбрать цвет</button>
+
+<button class="start2" onclick="myFunction()">
+  Создать меню
+    </button>
+    <button class="start3" onclick="myFunction6()">
+  Удалить настройки
+    </button>
+    <button class="start4" onclick="myFunction3()">
+  Обводка
+    </button>
+    <button class="start5" onclick="myFunction5()">
+  Ширина +50
+    </button>
+    <button class="start6" onclick="myFunction3()" >
+   Округлить
+    </button>
+    <button class="start7"  onclick="myFunction7()">
+   Изменить цвет текста
+    </button>
+        <button class="start8" onclick="myFunctionn()">
+   Размер текста
+    </button>
+        <button class="start9" onclick="myFunction9()">
+   Платная песочница
+    </button>
+<div id="myDIV">
+<div id="txtDiv" class="sbtext"> </div>
+</div>
+ <div class="lg">
+   sandbox by @ipacoding
+   <p>
+     
+   eсли у вас появилась 
+   
+   </p>
+      <p>
+
+       идея новой функции для песочницы
+   </p>
+   отправьте пожалуйста 
+   мне в тг!
+   
+    </div>
+
+    <select onchange="myDIV.style.backgroundColor=this.value" class="sel1">
+  <option value="red">Красный</option>
+  <option value="green">Зеленый</option>
+  <option value="blue">Синий</option>
+      <option value="yellow">Желтый</option>
+      <option value="#ffa500">Оранжевый</option>
+</select>
+    <a href="https://t.me/ipabuild" class="ap">Telegram</a>
+    <a href="https://t.me/+W6CZQLoF9rFjNjdl">Инструкция</a>
+       <select onchange="myDIV.style.borderColor=this.value" class="sel">
+  <option value="red">Красная</option>
+  <option value="green">Зеленая</option>
+  <option value="blue">Синяя</option>
+         <option value="yellow">Желтая</option>
+      <option value="#ffa500">Оранжевая</option>
+</select>
+    <select onchange="myDIV.style.borderRadius=this.value" class="em">
+  <option value="5px">5px</option>
+  <option value="7px">7px</option>
+  <option value="10px">10px</option>
+      <option value="12px">12px</option>
+      <option value="15px">15px</option>
+</select>
+    <select onchange="myDIV.style.width=this.value" class="em2">
+  <option value="165px">5px</option>
+  <option value="170px">10px</option>
+  <option value="175px">15px</option>
+      <option value="180px">20px</option>
+      <option value="185px">25px</option>
+       <option value="190px">30px</option>
+       <option value="196px">35px</option>
+       <option value="200px">40px</option>
+       <option value="205px">45px</option>
+       <option value="210px">50px</option>
+</select>
+    <select onchange="myDIV.style.textAlign=this.value" class="em4">
+  <option value="center">Центр</option>
+  <option value="left">Лево</option>
+  <option value="right">Право</option>
+      
+</select>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input type="text" id="myText" class="inp" placeholder="enter name menu">
+<button onclick = "submitTxt()" class="inptb">Ввести</button>
+<div id="txtDiv" class="sbtext"> </div>
+    <select onchange="myDIV.style.color=this.value" class="em5">
+  <option value="red">Красный</option>
+  <option value="green">Зеленый</option>
+  <option value="blue">Синий</option>
+      <option value="yellow">Желтый</option>
+      <option value="#ffa500">Оранжевый</option>
+</select>
+      <select onchange="myDIV.style.fontSize=this.value" class="em6">
+  <option value="5px">5px</option>
+  <option value="7px">7px</option>
+  <option value="10px">10px</option>
+      <option value="15px">15px</option>
+      <option value="20px">20px</option>
+
+</select>
+    <div class="upd" onclick="update()">
+      История обновлений
+    </div>
+    <script>
+      
+      function update() {
+  alert("История обновлений:\nОбводкa \nНастройка цвета \nНастройка размера текста\n Настройка обводки\nПрибавление ширины меню\nУдаление меню\n \nВвод текста\n Позиции текста\nПлатная песочница")
+
+   }
+      
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else { 
+    x.style.display = "block";
+  }
+}
+      function submitTxt() {
+  $("#txtDiv").text($("#myText").val())
+}
+            
+    function ipa() {
+  var x = document.getElementById("mydiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else { 
+    x.style.display = "block";
+  }
+}
+      
+      function myFunction2() {
+        var color = [, "#3C9EE7", "#E7993C",
+
+            "#E73C99", "#3CE746", "#E7993C"];
+ 
+document.getElementById("start").addEventListener(
+
+            "mouseover", function () {
+ 
+
+                document.getElementById("myDIV").style.background
+
+                    = color[(Math.floor(Math.random() * color.length))];
+
+            })
+        
+           
+    }
+      
+      function my() {
+        var x = document.getElementById("myDIV");
+        x.style.background ="purple"; 
+      }
+      
+      
+      function myFunction3() {
+ var x = document.getElementById("myDIV");
+  
+    x.style.border = "2px solid red";
+}
+            function myFunction4() {
+ var x = document.getElementById("myDIV");
+  
+    x.style.borderRadius = "5px";
+}
+      function myFunction5() {
+      var x = document.getElementById("myDIV");
+  
+    x.style.width = "210px";
+      }
+      
+      
+      function myFunction6() {
+var x = document.getElementById("myDIV");
+  
+    x.style.display ="block";
+    x.style.width = "160px";
+    x.style.borderRadius = "none";
+    x.style.border = "none";
+    x.style.background = "black";
+    x.style.fontSize = "12px";
+    x.style.color = "white";
+    x.style.borderColor = "black";
+        x.style.borderRadius = "0px";
+}
+      function myFunction8() {
+      var x = document.getElementById("myDIV");
+  
+    x.style.fontSize = "10px";
+      }
+      function myFunction9() {
+      alert("Платную версию песочницы можете приобрести тут t.me/ipacoding")
+        window.open("https://t.me/ipacoding");
+      }
+         // Provide a function to modify the 
+
+        // "gfg" element's font color.
+
+        function changeColor() {
+
+            var div = document.getElementById("myDIV");
+
+            var selectColor =
+
+                document.getElementById("selectColor");
+ 
+
+            // From the drop-down menu, obtain 
+
+            // the value of the chosen color.
+
+            var selectedColor =
+
+            selectColor.options[selectColor.selectedIndex].value;
+ 
+
+            // Set the font color of the "gfg" 
+
+            // element to the selected color
+
+            div.style.color = selectedColor;
+        }
+
+    </script>
+  </body>
+</html>
+ 
