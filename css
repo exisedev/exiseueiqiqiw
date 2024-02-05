@@ -1,1 +1,234 @@
+        #myDIV {
+        width: 160px;
+        height: 110px;
+        background: black;
+  display: none;
+           position: relative;
+           top: 200px;
+           left: 55px;
+           color: none;
+           text-align: center;
+           font-family: "Arial";
+           font-size: 12px;
+        
+      }
+      #start {
+        width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 60px;
+        left: 50px;
+      }
+      .start2 {
+        width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 10px;
+        left: -29px;
+      }
+
+      .start3 {
+width: 82px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 10px;
+        left: -25px;
+        text-align: center;
+}
+      .start4 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 67px;
+        left: -107px;
+}
+      .lg {
+        color: black;
+        font-family: "Arial";
+        position: absolute;
+        top: 500px; 
+        left: 10px;
+        font-size: 10px;
+      }
+      .start5 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 91px;
+        left: 50px;
+        
+}
+
+      .start6 {
+width: 75px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 98px;
+        left: 55px;
+}
+      .start7 {
+width: 100px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 159px;
+        left: -108px;
+     }
+        .start8 {
+width: 85px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 205px;
+        left: -118px;
+     }
+        .start9 {
+width: 85px;
+        height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        position: relative; 
+        top: 165px;
+        left: 50px;
+     }
+
+      #mydiv {
+        color: white;
+        position: relative;
+        top: 0px;
+      }
+      select {
+        position: absolute;
+        top: 110px;
+        width: 70px;
+        height: 20px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        left: 52px;
+      }
+      tabel {
+        position: relative;
+        top: 400px;
+      }
+      a {
+        position: absolute;
+        top: 600px;
+        color: black;
+        left: 10px;
+      }
+      .sel {
+        position: absolute;
+        top: 115px;
+        left: 140px;
+      }
+      .sel1 {
+        position: absolute;
+        top: 116px;
+        left: 51px;
+      }
+      .ap {
+        position: absolute;
+        top: 621px;
+        color: black;
+        left: 10px;
+      }
+      .em {
+        position: absolute;
+        top: 187px;
+        left:136px;
+      }
+
+   .em2 {
+        position: absolute;
+        top: 187px;
+      }
+      .inp {
+        position: absolute;
+        top: 600px;
+        left: 175px;
+        width: 105px;
+        height: 15px;
+        background: black;
+        color: white;
+        
+      }
+      .inptb {
+        position: absolute;
+        top: 599px;
+        left: 300px;
+        width: 70px;
+        height: 23px;
+        background: black;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+      }
+      .sbtext {
+color: red;
+
+      }
+      .em4 {
+        position: absolute;
+        top: 601px;
+        left: 100px;
+      }
+      .em5 {
+        position: absolute;
+        top: 212px;
+        left: 155px;
+      } 
+      .em6 {
+        position: absolute;
+        top: 235px;
+        left: 155px;
+      }
+      .upd {
+        width: 100px;
+        height: 37px;
+        background: red;
+        color: white;
+        position: absolute;
+        top: 555px;
+        left: 200px;
+        border:none;
+        border-radius: 5px;
+        text-align: center;
+        font-family: "Arial";
+        font-size: 13px;
+      
+}
 
